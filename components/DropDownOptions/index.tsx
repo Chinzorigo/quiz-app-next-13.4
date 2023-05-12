@@ -14,7 +14,7 @@ import {
       <section className="flex justify-evenly items-center py-5">
         <div className="px-7 py-4 w-1/3 mx-4">
         <DropdownMenu>
-          <DropdownMenuTrigger>SELECT CATEGORIES</DropdownMenuTrigger>
+          <DropdownMenuTrigger className="flex outline-none justify-between  w-full px py-3 rounded-lg shadow-lg hover:bg-blue-600 hover:text-gray-600">SELECT CATEGORIES</DropdownMenuTrigger>
           <DropdownMenuContent>
             <DropdownMenuLabel>Select category</DropdownMenuLabel>
             <DropdownMenuSeparator />
